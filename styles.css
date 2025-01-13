@@ -1,0 +1,593 @@
+/* Apply a consistent box model, margin, and padding reset for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base styles for the body element */
+body {
+  font-family: 'Open Sans', sans-serif; /* Use Open Sans font from Google Fonts */
+  line-height: 1.6; /* Sets the line height for better readability */
+  background-color: #f4f4f4; /* Light grey background color */
+}
+
+/* Header styling */
+header {
+  width: 100%;
+  background-color: #F3F4F6; /* Very light grey background for the header */
+  color: #111827; /* Dark grey text color */
+  padding: 1rem 0; /* Vertical padding for spacing */
+}
+
+/* Styling for the logo section within the header */
+.logo h1 {
+  padding: 0; /* Remove default padding */
+  font-size: 30px; /* Font size for the logo text */
+  font-weight: 600; /* Semi-bold font weight for emphasis */
+  line-height: 36px; /* Line height to ensure proper spacing */
+  text-align: left; /* Align text to the left */
+}
+
+/* Styling for navigation links */
+
+/* Navigation bar styling */
+nav {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Distribute space between items */
+  align-items: center; /* Center items vertically */
+  padding: 0 224px; /* Horizontal padding for balanced layout */
+}
+
+/* Navigation list styling */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+}
+
+/* Primary (selected) button style */
+.nav-item.primary {
+  background-color: #DB2777;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 20px; /* Rounded corners to match the button */
+  font-weight: bold;
+  text-align: center;
+}
+
+.nav-item.primary:hover {
+  background-color: #ff7fa9; /* Hover primary color */
+}
+
+.nav-item.primary:active {
+  background-color: #e6396c; /* Tapped primary color */
+}
+
+.nav-item.primary.inactive {
+  background-color: #ffb3c6; /* Inactive primary color */
+  color: #ffffff;
+}
+
+/* Secondary (unselected) button style */
+.nav-item.secondary {
+  background-color: transparent;
+  color: #ff4d87; /* Same color as active primary button background */
+  border: 2px solid #ff4d87; /* Border color to match the primary button */
+  padding: 0.5rem 1.5rem;
+  border-radius: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.nav-item.secondary:hover {
+  background-color: #ffe6ef; /* Hover secondary color */
+}
+
+.nav-item.secondary:active {
+  background-color: #ffb3c6; /* Tapped secondary color */
+}
+
+.nav-item.secondary.inactive {
+  color: #cccccc; /* Inactive secondary color */
+  border-color: #cccccc;
+}
+
+/* Toggle language button style */
+.lang-toggle {
+  background: none;
+  color: #ff4d87; /* Same color as active primary button background */
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 0.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+/* Margin for navigation list items */
+nav ul li {
+  margin: 0 10px; /* Horizontal margin for spacing */
+}
+
+/* Styling for navigation links */
+nav ul li a {
+  color: white; /* White text color for all navigation links */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.padding-container{
+  padding: 0 12.5rem;
+}
+
+/* Container styling for headings in the intro section */
+.container h2 {
+  margin-bottom: 16px; /* Margin below the heading to separate it from the paragraph */
+}
+
+/* Intro section styling */
+.intro {
+  padding: 48px 224px; /* Padding around the content for spacing */
+  background-color: #e0e0e0; /* Light grey background color */
+}
+
+/* General styling for h2 elements */
+h2 {
+  font-family: 'Open Sans', sans-serif; /* Use Open Sans font */
+  font-size: 48px; /* Large font size for headings */
+  font-weight: 400; /* Regular font weight */
+  line-height: 57.6px; /* Line height for spacing */
+}
+
+/* Highlighted text within h2 elements */
+.highlight {
+  color: #DB2777; /* Pink color for highlighted text */
+  font-size: 48px; /* Match font size with h2 */
+  font-weight: 600; /* Semi-bold font weight for emphasis */
+  line-height: 57.6px; /* Match line height with h2 */
+  text-align: left; /* Align text to the left */
+}
+
+/* Styling for the strengths section */
+.strengths, .soft{
+  background-color: #fff; /* White background color */
+  padding: 50px 20px; /* Padding around the content */
+}
+
+/* Heading styling for the strengths section */
+.strengths .h3, .soft .h3  {
+  text-align: center; /* Center align the heading */
+  margin-bottom: 30px; /* Margin below the heading to separate it from the grid */
+}
+
+/* Base reset and body styles remain unchanged */
+
+/* Responsive grid layout for the strengths and hobbies sections */
+.strengths .grid, .soft .grid,
+.hobbies .grid {
+  display: grid; /* Enable grid layout */
+  grid-template-columns: repeat(3, 1fr); /* Default: 3 columns for larger screens */
+  gap: 20px; /* Space between grid items */
+}
+
+.projects .grid {
+  display: grid; /* Enable grid layout */
+  grid-template-columns: repeat(2, 1fr); /* Default: 3 columns for larger screens */
+  gap: 20px; /* Space between grid items */
+}
+
+/* Make the grid responsive using a media query */
+@media (max-width: 768px) {
+  .projects .grid {
+    grid-template-columns: 1fr; /* Switch to 1 column for mobile */
+  }
+}
+
+/* Make the grid responsive using a media query */
+@media (max-width: 768px) {
+  .strengths .grid, .soft .grid,
+  .hobbies .grid {
+    grid-template-columns: repeat(2, 1fr); /* Switch to 2 columns for tablets */
+  }
+}
+
+@media (max-width: 480px) {
+  .strengths .grid, .sfot .grid,
+  .hobbies .grid {
+    grid-template-columns: 1fr; /* Switch to 1 column for mobile */
+  }
+}
+
+/* Individual items styling */
+.strengths .grid .item, .soft .grid .item
+.projects .grid .item,
+.hobbies .grid .item {
+  background-color: #ffffff; /* White background for each item */
+  padding: 20px; /* Padding around content */
+  border-radius: 8px; /* Rounded corners */
+}
+
+.center {
+  text-align: center;            /* Center align text */
+  margin: 10px 0;                /* Margin above and below for spacing */
+}
+
+.projects .grid .item{
+  margin: 20px;
+}
+
+.projects .item {
+  background-color: #f9f9f9;    /* Light gray background color */
+  padding: 20px;                /* Padding inside the item */
+  border-radius: 8px;           /* Rounded corners */
+  text-align: center;           /* Center align text */
+}
+
+/* Style for h3 elements in the strengths section */
+.projects h3 {
+  text-align: center;            /* Center align text */
+  margin: 30px 0; /* Margin below the heading to separate it from the grid */
+}
+
+.projects h4 {
+  text-align: center;            /* Center align text */
+  font-size: 24px;
+}
+/* Center-aligned text */
+
+
+/* Styling for images within hobbies items */
+.projects .grid .item img {
+  width: 100%; /* Make image fill the container width */
+  height: 28rem; /* Maintain aspect ratio */
+  object-fit: cover;
+  border-radius: 8px; /* Rounded corners for images */
+}
+
+/* Style for tags in the strengths section */
+.projects .grid .item .tags {
+  display: flex;                /* Use flexbox layout */
+  align-items: center;
+  justify-content: center;
+  gap: 10px;                    /* Space between tags */
+  margin-top: 12px;             /* Margin above the tags */
+}
+
+/* Style for each tag */
+.projects .grid .item .tag {
+  background-color: #FCE7F3;    /* Pink background color */
+  color: #111827;               /* Dark text color */
+  height: 22px;                 /* Height of the tag */
+  padding: 2px 10px;            /* Padding inside the tag */
+  border-radius: 10px;          /* Rounded corners */
+  display: flex;                /* Use flexbox layout */
+  align-items: center;          /* Center align items vertically */
+  justify-content: center;      /* Center align items horizontally */
+  font-size: 14px;              /* Font size for the tag */
+  font-weight: 500;             /* Regular font weight */
+}
+
+
+/* Intro and other sections responsive adjustments */
+.intro,
+.contact {
+  padding: 48px 20px; /* Reduce padding for smaller screens */
+}
+
+@media (max-width: 768px) {
+  header nav {
+    padding: 0 20px; /* Adjust header padding for tablets */
+  }
+  .intro {
+    text-align: center; /* Center text for smaller screens */
+  }
+  h2 {
+    font-size: 32px; /* Smaller font for headings */
+    line-height: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .intro,
+  .contact {
+    padding: 24px 10px; /* Further reduce padding for mobile */
+  }
+
+  header nav ul {
+    flex-direction: column; /* Stack navigation items vertically */
+    align-items: center; /* Center align the items */
+    width: 100%; /* Make the nav full width */
+  }
+
+  nav ul li {
+    margin: 5px 0; /* Space out items vertically */
+    width: 100%; /* Ensure each nav item takes up full width */
+    text-align: center; /* Center the text */
+  }
+
+  nav ul li a {
+    display: block; /* Make the link fill the list item */
+    padding: 10px; /* Add padding for better tap targets on mobile */
+    width: 100%; /* Ensure links take up full width */
+  }
+  .lang-toggle {
+    width: 100%;
+  }
+}
+
+
+/* Container for heading and icon in strengths items */
+.strengths .grid .item .heading-container, .soft .grid .item .heading-container {
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Center items vertically */
+  gap: 10px; /* Space between icon and heading */
+}
+
+/* Icon size in strengths items */
+.strengths .grid .item .icon, .soft .grid .item .icon {
+  width: 24px; /* Width of the icon */
+  height: 24px; /* Height of the icon */
+}
+
+/* Heading styling within strengths items */
+.strengths .grid .item h4, .soft .grid .item h4 {
+  font-size: 20px; /* Font size for headings */
+  font-weight: 600; /* Medium font weight */
+  text-align: left; /* Align text to the left */
+  line-height: 28.8px; /* Line height for spacing */
+  margin: 0; /* Remove default margin */
+}
+
+/* Paragraph styling within strengths items */
+.strengths .grid .item p, .soft .grid .item p  {
+  margin-top: 12px; /* Margin above the paragraph */
+  font-size: 18px; /* Font size for text */
+  font-weight: 300; /* Light font weight */
+  text-align: left; /* Align text to the left */
+  padding-left: 35px; /* Padding on the left side */
+  line-height: 27px; /* Line height for spacing */
+}
+
+/* General styling for strengths items */
+.strengths .item, .soft .item {
+  /* background-color: #f9f9f9;  */
+  padding: 20px; /* Padding around content */
+  border-radius: 8px; /* Rounded corners */
+  text-align: center; /* Center align text */
+}
+
+/* Styling for h3 elements */
+h3 {
+  font-size: 36px; /* Font size for h3 elements */
+  font-weight: 600; /* Semi-bold font weight */
+  line-height: 43.2px; /* Line height for spacing */
+  text-align: center; /* Center align text */
+  color: #111827; /* Dark grey text color */
+}
+
+/* Styling for the hobbies section */
+.hobbies {
+  background-color: #E5E7EB; /* Light grey background color */
+  padding: 50px 20px; /* Padding around the content */
+}
+
+/* Styling for headings in the hobbies section */
+.hobbies h4 {
+  font-size: 30px; /* Font size for headings */
+  font-weight: 600; /* Semi-bold font weight */
+  line-height: 36px; /* Line height for spacing */
+  text-align: center; /* Center align text */
+  margin: 24px 0 10px 0; /* Margin above and below heading */
+}
+
+/* Grid layout for hobbies items */
+
+
+/* Styling for individual hobbies items */
+.hobbies .grid .item {
+  background-color: #E5E7EB; /* Light grey background color */
+  border-radius: 8px; /* Rounded corners */
+  padding: 10px; /* Padding around content */
+}
+
+/* Styling for images within hobbies items */
+.hobbies .grid .item img {
+  width: 100%; /* Make image fill the container width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Rounded corners for images */
+}
+
+/* Styling for headings within hobbies items */
+.hobbies .grid .item h4 {
+  font-size: 24px; /* Font size for headings */
+  font-weight: 500; /* Medium font weight */
+  margin: 0 0 10px 0; /* Margin below heading */
+}
+
+/* Styling for paragraphs within hobbies items */
+.hobbies .grid .item p {
+  font-size: 18px; /* Font size for text */
+  line-height: 1.6; /* Line height for spacing */
+  margin: 0; /* Remove default margin */
+}
+
+/* Styling for the contact section */
+.contact {
+  background-color: #e0e0e0; /* Light grey background color */
+  color: #111827; /* Dark grey text color */
+  padding: 50px 20px; /* Padding around the content */
+  text-align: center; /* Center align text */
+  align-items: center; /* Center align items vertically */
+}
+
+/* Styling for the button in the contact section */
+.contact button {
+  padding: 10px 20px; /* Padding around button text */
+  background-color: #DB2777; /* Pink background color */
+  color: white; /* White text color */
+  border: none; /* Remove default border */
+  cursor: pointer; /* Show pointer cursor on hover */
+  border-radius: 5px; /* Rounded corners for the button */
+  font-size: 16px; /* Font size for button text */
+}
+
+.contact button:hover {
+  background-color: #C0266A; /* Darken the pink slightly */
+}
+
+.about-me {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.left-column {
+  flex: 2; /* Left column takes more space */
+  background-color: #DB2777; /* Light pink background */
+  padding: 40px 150px 40px 40px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.right-column {
+  flex: 1; /* Right column takes less space */
+  background-color: #fff; /* White background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+
+
+.about-me h3 {
+  font-size: 1.8em;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #fff; /* Dark color for readability */
+}
+
+.about-me p {
+  font-size: 1em;
+  line-height: 1.6;
+  color: #fff; /* Darker color for better contrast */
+}
+
+.about-me img {
+  width: 100%; /* Make image fill the container width */
+  max-width: 410px;
+  height:auto;
+  border-radius: 8px; /* Rounded corners for images */
+}
+
+/* Media query for mobile responsiveness */
+@media (max-width: 768px) {
+  .about-me {
+    flex-direction: column; /* Stack columns vertically */
+  }
+
+  .left-column,
+  .right-column {
+    padding: 20px; /* Reduce padding for mobile */
+  }
+
+  .left-column {
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+
+  .about-me h3 {
+    font-size: 1.6em; /* Adjust font size for mobile */
+  }
+
+  .about-me p {
+    font-size: 0.9em; /* Adjust font size for mobile */
+  }
+}
+
+.contact-section {
+	padding: 60px 20px;
+	text-align: center;
+}
+
+.contact-header h1 {
+	font-size: 2.5rem;
+	margin: 0;
+}
+
+.contact-header p {
+	font-size: 1.2rem;
+	margin: 10px 0 40px;
+}
+
+.contact-cards {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	flex-wrap: wrap;
+}
+
+.card {
+	display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+	background-color: #ffffff;
+	color: #333;
+	width: 250px;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	text-align: center;
+	
+}
+
+.card-icon {
+	width: 70px;
+	height: 70px;
+	margin: 0 auto 15px;
+	border-radius: 50%;
+	background-color: #ffffff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+	background-size: cover;
+	background-position: center;
+}
+
+.card h2 {
+	font-size: 1.5rem;
+	margin: 10px 0;
+}
+
+.card p {
+	font-size: 1rem;
+	color: #666;
+}
+
+.card a {
+  margin-top: auto; /* Pushes the link to the bottom */
+  text-decoration: none;
+  color: #DB2777;
+  font-weight: bold;
+}
+
+.card a:hover {
+	text-decoration: underline;
+}
+
+/* Specific styles for each icon */
+.icon-contact {
+	background-image: url('assets/contact/gmail.png');
+}
+
+.icon-linkedin {
+	background-image: url('assets/contact/linkedin.png');
+}
+
+.icon-newsroom {
+	background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/2048px-2021_Facebook_icon.svg.png');
+}

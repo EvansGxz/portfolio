@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
+    <!-- PNG Fallbacks for modern devices -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/assets/favicon-512x512.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="assets/favicon-512x512.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="512x512"
+      href="assets/favicon-512x512.png"
+    />
+
+    <!-- Apple Touch Icon (iOS) -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon-512x512.png"
+    />
+
+    <!-- Microsoft Tiles -->
+    <meta name="msapplication-TileImage" content="mstile-144x144.png" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+
+    <!-- Web Manifest (for PWA) -->
+    <link rel="manifest" href="manifest.json" />
+
+    <title>Portfolio Evans - Affordable Web & Mobile Developer Solutions</title>
+    <script>
+      // Redirect root path ("/") to "/home"
+      if (window.location.pathname === "/portafolio.html") {
+        window.history.replaceState({}, "", "/portafolio");
+      }
+    </script>
+    <meta
+      name="description"
+      content="Explore the portfolio of Evans, a full-stack developer with expertise in web and mobile development. View completed projects that showcase skills in responsive design and app development."
+    />
+
+    <meta
+      name="keywords"
+      content="Evans portfolio, freelance developer projects, web development portfolio, mobile app portfolio, responsive website samples, full-stack developer work"
+    />
+
+    <link rel="canonical" href="https://freelance-evans.pro/" />
+    <link rel="canonical" href="https://freelance-evans.pro/home" />
+    <link rel="canonical" href="https://freelance-evans.pro/about" />
+    <link rel="canonical" href="https://freelance-evans.pro/portafolio" />
+
+    <link rel="stylesheet" href="styles.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "WebPage",
+        "name": "Portfolio - Best Freelance Apps",
+        "url": "https://freelance-evans.pro/portafolio",
+        "description": "Explore the portfolio of Evans, a full-stack developer with expertise in responsive web and mobile app development.",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Best Freelance Apps",
+          "url": "https://freelance-evans.pro",
+          "logo": "https://freelance-evans.pro/assets/favicon-512x512.png",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "email": "evansgxz1@gmail.com",
+            "contactType": "Customer Support"
+          },
+          "sameAs": ["https://www.linkedin.com/in/estebanglz"]
+        }
+      }
+    </script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header section containing the navigation -->
+    <header>
+      <nav>
+        <!-- Logo section with the site name -->
+        <div class="logo">
+          <h1 data-translate="header.logo">Full-Stack Freelancer</h1>
+        </div>
+        <!-- Navigation menu -->
+        <ul class="nav">
+          <li>
+            <a
+              data-translate="header.nav.home"
+              href="index.html"
+              class="nav-item secondary"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              data-translate="header.nav.portfolio"
+              href="portafolio.html"
+              class="nav-item primary"
+              >Portafolio</a
+            >
+          </li>
+          <li>
+            <a
+              data-translate="header.nav.about"
+              href="about.html"
+              class="nav-item secondary"
+              >About</a
+            >
+          </li>
+          <li>
+            <button
+              id="toggle-lang"
+              data-translate="header.nav.toggleLang"
+              class="lang-toggle"
+            >
+              EN
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Intro Section -->
+      <section class="intro">
+        <div class="container center">
+          <h2>
+            <span data-translate="portfolio.title1"
+              >Transforming Ideas into Digital</span
+            >
+            <span data-translate="portfolio.title2" class="highlight"
+              >Experiences</span
+            >
+            <span data-translate="portfolio.title3">>!</span>
+          </h2>
+          <p data-translate="portfolio.description">
+            As a seasoned full-stack developer, I bring expertise in creating
+            high-quality, responsive websites and mobile applications that cater
+            to your unique business needs. I specialize in web development,
+            mobile site optimization, and delivering seamless, user-friendly
+            experiences across all devices. Whether you need a full-scale
+            website, a mobile-friendly version of your existing platform, or a
+            fully responsive site, I have the skills to bring your vision to
+            life. Let’s work together to make your digital presence stand out
+            and perform exceptionally well!
+          </p>
+        </div>
+      </section>
+
+      <!-- Strengths Section -->
+      <section class="projects">
+        <div class="container">
+          <!-- Section heading -->
+          <h3 data-translate="portfolio.h3">Featured Projects</h3>
+          <!-- Centered paragraph -->
+          <!-- Grid layout for portfolio items -->
+          <div class="grid">
+            <!-- First portfolio item with a link -->
+            <div class="item">
+              <!-- Container for heading within the item -->
+              <div>
+                <h4>Crypto Tracker</h4>
+              </div>
+              <!-- Description of the portfolio item -->
+              <a
+                href="https://evans-cryptotracker.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="./assets/portfolio/team1.png" alt="team1"
+              /></a>
+              <!-- Tags associated with the portfolio item -->
+              <div class="tags">
+                <span class="tag">Responsive/span>
+                <span class="tag">Web App</span>
+                <span class="tag">API</span>
+                <span class="tag">UI/UX</span>
+              </div>
+            </div>
+            <!-- Second portfolio item with a link -->
+            <div class="item">
+              <div>
+                <h4>Spotify Music Explorer</h4>
+              </div>
+              <a
+                href="https://evans-musicsearch.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="./assets/portfolio/team2.png" alt="team2" />
+              </a>
+              <div class="tags">
+                <span class="tag">Web</span>
+                <span class="tag">Spotify</span>
+                <span class="tag">Responsive</span>
+                <span class="tag">API</span>
+              </div>
+            </div>
+            <!-- Third portfolio item with a link -->
+            <div class="item">
+              <div>
+                <h4>Weather website</h4>
+              </div>
+              <a
+                href="https://evans-weather.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="./assets/portfolio/team3.png" alt="team3" />
+              </a>
+              <div class="tags">
+                <span class="tag">WPA</span>
+                <span class="tag">Responsive</span>
+                <span class="tag">Mobile</span>
+                <span class="tag">UI/UX</span>
+              </div>
+            </div>
+            <!-- Fourth portfolio item with a link -->
+            <div class="item">
+              <div>
+                <h4>Movies Library</h4>
+              </div>
+              <a
+                href="https://evans-movies.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="./assets/portfolio/team4.png" alt="team4" />
+              </a>
+              <div class="tags">
+                <span class="tag">Web</span>
+                <span class="tag">API</span>
+                <span class="tag">DB</span>
+                <span class="tag">UI/UX</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section class="contact">
+        <div class="container">
+          <!-- Contact heading -->
+          <h2>¿Puedo ayudarte?</h2>
+          <!-- Contact button -->
+          <button id="contact-button" data-translate="contact.button">
+            Contáctame!
+          </button>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
+    <!-- PNG Fallbacks for modern devices -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/assets/favicon-512x512.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="assets/favicon-512x512.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="512x512"
+      href="assets/favicon-512x512.png"
+    />
+
+    <!-- Apple Touch Icon (iOS) -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon-512x512.png"
+    />
+
+    <!-- Microsoft Tiles -->
+    <meta name="msapplication-TileImage" content="mstile-144x144.png" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+
+    <!-- Web Manifest (for PWA) -->
+    <link rel="manifest" href="manifest.json" />
+
+    <title>About Evans - Affordable Web & Mobile Developer Solutions</title>
+    <script>
+      // Redirect root path ("/") to "/home"
+      if (window.location.pathname === "/about.html") {
+        window.history.replaceState({}, "", "/about");
+      }
+    </script>
+    <meta
+      name="description"
+      content="Learn more about Evans, a full-stack developer specializing in web and mobile solutions. Discover my background, skills, and dedication to delivering high-quality digital products."
+    />
+
+    <meta
+      name="keywords"
+      content="about Evans, full-stack developer, web development background, mobile app expertise, freelance developer experience, responsive design"
+    />
+
+    <link rel="canonical" href="https://freelance-evans.pro/" />
+    <link rel="canonical" href="https://freelance-evans.pro/home" />
+    <link rel="canonical" href="https://freelance-evans.pro/about" />
+    <link rel="canonical" href="https://freelance-evans.pro/portafolio" />
+
+    <link rel="stylesheet" href="styles.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "AboutPage",
+        "name": "About Evans - Best Freelance Apps",
+        "url": "https://freelance-evans.pro/about",
+        "description": "Learn more about Evans, a seasoned full-stack developer specializing in responsive web and mobile app solutions.",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Best Freelance Apps",
+          "url": "https://freelance-evans.pro",
+          "logo": "https://freelance-evans.pro/assets/favicon-512x512.png",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "email": "evansgxz1@gmail.com",
+            "contactType": "Customer Support"
+          },
+          "sameAs": ["https://www.linkedin.com/in/estebanglz"]
+        }
+      }
+    </script>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header section containing site navigation -->
+    <header>
+      <nav>
+        <div class="logo">
+          <!-- Site logo or title -->
+          <h1 data-translate="header.logo">Full-Stack Freelancer</h1>
+        </div>
+        <ul class="nav">
+          <li>
+            <a
+              data-translate="header.nav.home"
+              href="index.html"
+              class="nav-item secondary"
+            ></a>
+          </li>
+          <li>
+            <a
+              data-translate="header.nav.portfolio"
+              href="portafolio.html"
+              class="nav-item secondary"
+            ></a>
+          </li>
+          <li>
+            <a
+              data-translate="header.nav.about"
+              href="about.html"
+              class="nav-item primary"
+            ></a>
+          </li>
+          <li>
+            <button
+              id="toggle-lang"
+              data-translate="header.nav.toggleLang"
+              class="lang-toggle"
+            ></button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main content area -->
+    <main>
+      <!-- Intro Section: Introduction of the developer -->
+      <section class="intro">
+        <div class="container center">
+          <h2>
+            <span data-translate="intro.title">My</span>
+            <span data-translate="intro.highlight" class="highlight"
+              >Skills</span
+            >
+            <!-- Highlighted span without translation -->
+          </h2>
+
+          <p data-translate="intro.description">
+            I am a versatile full-stack developer with expertise in building
+            dynamic, scalable, and user-centric applications. With a strong
+            foundation in frontend technologies like React and React Native and
+            robust backend frameworks such as Ruby on Rails and Node.js, I
+            bridge the gap between design and functionality. My skill set
+            includes proficiency in database management, cloud deployment, and
+            responsive design, allowing me to deliver end-to-end solutions that
+            meet diverse project needs. Beyond technical expertise, my focus on
+            problem-solving, attention to detail, and adaptability ensures the
+            successful execution of every project.
+          </p>
+        </div>
+      </section>
+
+      <!-- Strengths Section: Highlights the developer's strengths -->
+      <section class="strengths">
+        <div class="container">
+          <h3 data-translate="strengths.title">Technical Skills</h3>
+          <div class="grid">
+            <!-- Individual strengths items -->
+            <div class="item">
+              <div class="heading-container">
+                <!-- Icon and heading for the first strength -->
+                <img src="assets/check.png" alt="Check Icon" class="icon" />
+                <h4 data-translate="strengths.items.uiUx.title">
+                  Custom UI/UX Design Solutions
+                </h4>
+              </div>
+              <p data-translate="strengths.items.uiUx.description">
+                If clients don’t have a clear vision, I can create intuitive,
+                visually appealing UI/UX designs tailored to their needs. I use
+                Figma for prototyping, ensuring designs are user-centered,
+                modern, and aligned with the brand’s identity.
+              </p>
+            </div>
+            <div class="item">
+              <div class="heading-container">
+                <!-- Icon and heading for the second strength -->
+                <img src="assets/check.png" alt="Check Icon" class="icon" />
+                <h4 data-translate="strengths.items.frontend.title">
+                  Frontend Development
+                </h4>
+              </div>
+              <p data-translate="strengths.items.frontend.description">
+                I build responsive and dynamic frontend applications using
+                ReactJS and React Native, optimizing performance across web and
+                mobile platforms. My focus is on seamless user experiences and
+                efficient loading speeds.
+              </p>
+            </div>
+            <div class="item">
+              <div class="heading-container">
+                <!-- Icon and heading for the third strength -->
+                <img src="assets/check.png" alt="Check Icon" class="icon" />
+                <h4 data-translate="strengths.items.backend.title">
+                  Backend Architecture and API Development
+                </h4>
+              </div>
+              <p data-translate="strengths.items.backend.description">
+                I create secure, scalable backend servers using Ruby on Rails,
+                with robust API designs to power frontend applications. My
+                solutions include user authentication, data management, and
+                third-party integrations.
+              </p>
+            </div>
+            <div class="item">
+              <div class="heading-container">
+                <!-- Icon and heading for the fourth strength -->
+                <img src="assets/check.png" alt="Check Icon" class="icon" />
+                <h4 data-translate="strengths.items.figma.title">
+                  Figma Design Prototyping
+                </h4>
+              </div>
+              <p data-translate="strengths.items.figma.description">
+                I develop detailed Figma prototypes, from wireframes to
+                high-fidelity screens, enabling clients to visualize app
+                layouts, workflows, and interactivity before development.
+              </p>
+            </div>
+            <div class="item">
+              <div class="heading-container">
+                <!-- Icon and heading for the fifth strength -->
+                <img src="assets/check.png" alt="Check Icon" class="icon" />
+                <h4 data-translate="strengths.items.cloud.title">
+                  Cloud-Based Backup and Version Control
+                </h4>
+              </div>
+              <p data-translate="strengths.items.cloud.description">
+                I set up automatic backup folders in GitHub or other cloud
+                services, ensuring that all source code and design assets are
+                securely version-controlled and accessible.
+              </p>
+            </div>
+            <div class="item">
+              <div class="heading-container">
+                <!-- Icon and heading for the sixth strength -->
+                <img src="assets/check.png" alt="Check Icon" class="icon" />
+                <h4 data-translate="strengths.items.vmSetup.title">
+                  Virtual Machine Setup and Deployment
+                </h4>
+              </div>
+              <p data-translate="strengths.items.vmSetup.description">
+                I provide virtual machine setup for hosting both frontend and
+                backend components, allowing secure and reliable deployment. I
+                ensure server stability, scaling, and performance.
+              </p>
+            </div>
+            <div class="item">
+              <div class="heading-container">
+                <!-- Icon and heading for the sixth strength -->
+                <img src="assets/check.png" alt="Check Icon" class="icon" />
+                <h4 data-translate="strengths.items.maintenance.title">
+                  Continuous Maintenance and Optimization
+                </h4>
+              </div>
+              <p data-translate="strengths.items.maintenance.description">
+                My services don’t stop at launch—I offer ongoing support for
+                updates, bug fixes, performance optimizations, and security
+                patches to keep the application running smoothly.
+              </p>
+            </div>
+            <div class="item">
+              <div class="heading-container">
+                <!-- Icon and heading for the sixth strength -->
+                <img src="assets/check.png" alt="Check Icon" class="icon" />
+                <h4 data-translate="strengths.items.responsive.title">
+                  Responsive Web and Mobile Optimization
+                </h4>
+              </div>
+              <p data-translate="strengths.items.responsive.description">
+                I optimize applications for cross-platform compatibility,
+                ensuring a consistent experience on desktops, tablets, and
+                mobile devices. This includes responsive design, adaptable
+                layout structures, and accessibility compliance.
+              </p>
+            </div>
+            <div class="item">
+              <div class="heading-container">
+                <!-- Icon and heading for the sixth strength -->
+                <img src="assets/check.png" alt="Check Icon" class="icon" />
+                <h4 data-translate="strengths.items.analytics.title">
+                  Analytics and User Feedback Integration
+                </h4>
+              </div>
+              <p data-translate="strengths.items.analytics.description">
+                I can integrate analytics tools to monitor user interactions and
+                performance metrics, allowing for data-driven improvements. This
+                setup includes feedback channels to gather insights directly
+                from users.
+              </p>
+            </div>
+            <div class="item">
+              <div class="heading-container">
+                <!-- Icon and heading for the sixth strength -->
+                <img src="assets/check.png" alt="Check Icon" class="icon" />
+                <h4 data-translate="strengths.items.database.title">
+                  Database Setup and Optimization
+                </h4>
+              </div>
+              <p data-translate="strengths.items.database.description">
+                I handle database creation, setup, and optimization, ensuring
+                data is stored securely and efficiently for both structured
+                (SQL) and unstructured (NoSQL) data types.
+              </p>
+            </div>
+            <div class="item">
+              <div class="heading-container">
+                <!-- Icon and heading for PWA Web Apps -->
+                <img src="assets/check.png" alt="Check Icon" class="icon" />
+                <h4 data-translate="strengths.items.pwa.title">PWA Web Apps</h4>
+              </div>
+              <p data-translate="strengths.items.pwa.description">
+                I build Progressive Web Apps (PWA) that provide a native
+                app-like experience in web browsers, featuring offline access,
+                push notifications, and seamless installation, maximizing reach
+                across all devices.
+              </p>
+            </div>
+            <div class="item">
+              <div class="heading-container">
+                <!-- Icon and heading for Native Apps for iOS and Android -->
+                <img src="assets/check.png" alt="Check Icon" class="icon" />
+                <h4 data-translate="strengths.items.nativeApps.title">
+                  Native Apps for iOS and Android
+                </h4>
+              </div>
+              <p data-translate="strengths.items.nativeApps.description">
+                I develop native mobile applications for iOS and Android lastes
+                technologies, ensuring optimal performance, responsiveness, and
+                adherence to platform-specific standards for an engaging user
+                experience.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Strengths Section: Highlights the developer's strengths -->
+      <section class="soft">
+        <div class="container">
+          <h3 data-translate="soft.title">Soft Skills</h3>
+          <div class="grid">
+            <!-- Individual soft items -->
+            <div class="item">
+              <div class="heading-container">
+                <!-- Icon and heading for the first strength -->
+                <img src="assets/check.png" alt="Check Icon" class="icon" />
+                <h4 data-translate="soft.items.uiUx.title">Problem-solving</h4>
+              </div>
+              <p data-translate="soft.items.uiUx.description">
+                Quick and efficient solutions to complex challenges.
+              </p>
+            </div>
+            <div class="item">
+              <div class="heading-container">
+                <!-- Icon and heading for the second strength -->
+                <img src="assets/check.png" alt="Check Icon" class="icon" />
+                <h4 data-translate="soft.items.frontend.title">
+                  Time management
+                </h4>
+              </div>
+              <p data-translate="soft.items.frontend.description">
+                Delivering quality work within deadlines.
+              </p>
+            </div>
+            <div class="item">
+              <div class="heading-container">
+                <!-- Icon and heading for the third strength -->
+                <img src="assets/check.png" alt="Check Icon" class="icon" />
+                <h4 data-translate="soft.items.backend.title">
+                  Team collaboration
+                </h4>
+              </div>
+              <p data-translate="soft.items.backend.description">
+                Effective communication with cross-functional teams.
+              </p>
+            </div>
+            <div class="item">
+              <div class="heading-container">
+                <!-- Icon and heading for the fourth strength -->
+                <img src="assets/check.png" alt="Check Icon" class="icon" />
+                <h4 data-translate="soft.items.figma.title">Adaptability</h4>
+              </div>
+              <p data-translate="soft.items.figma.description">
+                Thriving in fast-paced, dynamic environments.
+              </p>
+            </div>
+            <div class="item">
+              <div class="heading-container">
+                <!-- Icon and heading for the fifth strength -->
+                <img src="assets/check.png" alt="Check Icon" class="icon" />
+                <h4 data-translate="soft.items.cloud.title">
+                  Critical thinking
+                </h4>
+              </div>
+              <p data-translate="soft.items.cloud.description">
+                Strategizing and prioritizing tasks effectively.
+              </p>
+            </div>
+            <div class="item">
+              <div class="heading-container">
+                <!-- Icon and heading for the sixth strength -->
+                <img src="assets/check.png" alt="Check Icon" class="icon" />
+                <h4 data-translate="soft.items.vmSetup.title">Leadership</h4>
+              </div>
+              <p data-translate="soft.items.vmSetup.description">
+                Taking initiative and mentoring junior developers.
+              </p>
+            </div>
+            <div class="item">
+              <div class="heading-container">
+                <!-- Icon and heading for the sixth strength -->
+                <img src="assets/check.png" alt="Check Icon" class="icon" />
+                <h4 data-translate="soft.items.maintenance.title">
+                  Attention to detail
+                </h4>
+              </div>
+              <p data-translate="soft.items.maintenance.description">
+                Ensuring clean, maintainable, and error-free code.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Hobbies Section: Displays hobbies with images and descriptions -->
+      <section class="hobbies">
+        <div class="container">
+          <h3 data-translate="hobbies.title">Featured Services</h3>
+          <div class="grid">
+            <!-- Content arranged in a grid layout -->
+            <!-- First column -->
+            <div class="item">
+              <!-- Random gym image -->
+              <img
+                src="https://images.ctfassets.net/1khq4uysbvty/Zzp53JtBHxPbj3Y0JTRkg/71c23b0c389ddec51996035335c4de72/multiple-connections-with-component.gif?&w=736"
+                alt="Gym Image"
+              />
+            </div>
+            <div class="item">
+              <h4 data-translate="hobbies.items.uiDesign.title">
+                UI/UX Design and Prototyping
+              </h4>
+              <p data-translate="hobbies.items.uiDesign.description">
+                I create intuitive and visually appealing designs in Figma,
+                allowing clients to visualize the flow and structure of their
+                app before development.
+              </p>
+            </div>
+
+            <div class="item">
+              <!-- Random painting image -->
+              <img
+                src="https://teleporthq.io/responsive_web_design-gif-1200w.gif"
+                alt="Painting Image"
+              />
+            </div>
+            <!-- Second column -->
+            <div class="item">
+              <h4 data-translate="hobbies.items.appDev.title">
+                Responsive App Development
+              </h4>
+              <p data-translate="hobbies.items.appDev.description">
+                I develop applications that function seamlessly across all
+                devices, ensuring a consistent and engaging user experience on
+                both web and mobile platforms.
+              </p>
+            </div>
+
+            <div class="item">
+              <!-- Random karate image -->
+              <img
+                src="https://globaleducation.s3.ap-south-1.amazonaws.com/globaledu/gif/responsive-web-design.gif"
+                alt="Karate Image"
+              />
+            </div>
+            <div class="item">
+              <!-- Random karate image -->
+              <img
+                src="https://www.aceinfoway.com/blog/wp-content/uploads/2022/11/Android-Vs-iOS-Development.gif"
+                alt="Karate Image"
+              />
+            </div>
+            <div class="item">
+              <!-- Random karate image -->
+              <img
+                src="https://lh4.googleusercontent.com/proxy/k9cBWMUx9jPGnJbW9dziJ7rOhgdQqguoEmjAH7S4Iab7sxcQoPQQ4F4AaZpQ8xKtTGQgU5rcutVS-XzJ2Kp21o6H5cNsdLVc_m4AfWUdy4kfBm1JRnhh0BsQyzz4roMI1DHA"
+                alt="Karate Image"
+              />
+            </div>
+            <div class="item">
+              <!-- Random karate image -->
+              <img
+                src="https://www.riial.org/wp-content/uploads/2023/05/importancia-backup-seguridad.gif"
+                alt="Karate Image"
+              />
+            </div>
+            <div class="item">
+              <h4 data-translate="hobbies.items.backup.title">
+                Cloud Backups and Security
+              </h4>
+              <p data-translate="hobbies.items.backup.description">
+                I set up automated cloud backups to ensure that data is always
+                secure, accessible, and reliably stored on platforms like
+                GitHub.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section: Provides a way to contact the developer -->
+      <section class="contact">
+        <div class="container">
+          <h2 data-translate="contact.title">¿Puedo ayudarte?</h2>
+          <button id="contact-button" data-translate="contact.button">
+            Contáctame!
+          </button>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,174 @@
+{
+    "header": {
+      "logo": "Desarrollador Full-Stack",
+      "nav": {
+        "home": "Inicio",
+        "portfolio": "Portafolio",
+        "about": "Habilidades"
+      }
+    },
+    "intro": {
+      "title": "Mis",
+      "highlight": "Habilidades",
+      "description": "Soy un desarrollador full-stack versátil con experiencia en la creación de aplicaciones dinámicas, escalables y centradas en el usuario. Con una sólida base en tecnologías frontend como React y React Native y robustos frameworks backend como Ruby on Rails y Node.js, abarco el diseño y la funcionalidad. Mi conjunto de habilidades incluye competencia en gestión de bases de datos, implementación en la nube y diseño responsivo, lo que me permite ofrecer soluciones integrales que satisfacen diversas necesidades de proyectos. Más allá de la experiencia técnica, mi enfoque en la resolución de problemas, la atención a los detalles y la adaptabilidad garantizan la ejecución exitosa de cada proyecto."
+    },
+    "strengths": {
+      "title": "Habilidades Técnicas",
+      "items": {
+        "uiUx": {
+          "title": "Soluciones de Diseño UI/UX Personalizadas",
+          "description": "Si los clientes no tienen una visión clara, puedo crear diseños UI/UX intuitivos y visualmente atractivos adaptados a sus necesidades. Uso Figma para la creación de prototipos, asegurando diseños centrados en el usuario, modernos y alineados con la identidad de la marca."
+        },
+        "frontend": {
+          "title": "Desarrollo Frontend",
+          "description": "Construyo aplicaciones frontend responsivas y dinámicas utilizando ReactJS y React Native, optimizando el rendimiento en plataformas web y móviles. Mi enfoque es ofrecer experiencias de usuario fluidas y tiempos de carga eficientes."
+        },
+        "backend": {
+          "title": "Arquitectura de Backend y Desarrollo de API",
+          "description": "Creo servidores backend seguros y escalables con Ruby on Rails, con diseños de API robustos para potenciar las aplicaciones frontend. Mis soluciones incluyen autenticación de usuarios, gestión de datos e integraciones de terceros."
+        },
+        "figma": {
+          "title": "Prototipos en Figma",
+          "description": "Desarrollo prototipos detallados en Figma, desde wireframes hasta pantallas de alta fidelidad, permitiendo a los clientes visualizar el diseño de la aplicación antes del desarrollo."
+        },
+        "cloud": {
+          "title": "Backup en la Nube y Control de Versiones",
+          "description": "Configuro carpetas de respaldo automático en GitHub u otros servicios en la nube, asegurando que todo el código fuente y los activos de diseño estén controlados por versión y sean accesibles."
+        },
+        "vmSetup": {
+          "title": "Configuración de Máquinas Virtuales y Despliegue",
+          "description": "Proporciono configuración de máquinas virtuales para alojar tanto los componentes frontend como backend, permitiendo un despliegue seguro y confiable. Aseguro la estabilidad, escalabilidad y rendimiento del servidor."
+        },
+        "maintenance": {
+          "title": "Mantenimiento Continuo y Optimización",
+          "description": "Mis servicios no terminan con el lanzamiento; ofrezco soporte continuo para actualizaciones, corrección de errores, optimización de rendimiento y parches de seguridad para mantener la aplicación en funcionamiento."
+        },
+        "responsive": {
+          "title": "Optimización Web y Móvil Responsiva",
+          "description": "Optimizo aplicaciones para compatibilidad multiplataforma, garantizando una experiencia consistente en computadoras, tabletas y dispositivos móviles, con diseño responsivo y cumplimiento de accesibilidad."
+        },
+        "analytics": {
+          "title": "Integración de Análisis y Retroalimentación de Usuarios",
+          "description": "Puedo integrar herramientas de análisis para monitorear interacciones de usuario y métricas de rendimiento, permitiendo mejoras basadas en datos. Esta configuración incluye canales de retroalimentación para recopilar opiniones directamente de los usuarios."
+        },
+        "database": {
+          "title": "Configuración y Optimización de Bases de Datos",
+          "description": "Me encargo de la creación, configuración y optimización de bases de datos, asegurando que los datos se almacenen de manera segura y eficiente para datos estructurados (SQL) y no estructurados (NoSQL)."
+        },
+        
+          "pwa": {
+            "title": "Aplicaciones Web PWA",
+            "description": "Desarrollo Aplicaciones Web Progresivas (PWA) que brindan una experiencia similar a la de una app nativa en los navegadores web, con acceso sin conexión, notificaciones push e instalación fluida, maximizando el alcance en todos los dispositivos."
+          },
+          "nativeApps": {
+            "title": "Aplicaciones Nativas para iOS y Android",
+            "description": "Desarrollo aplicaciones móviles nativas para iOS y Android con las últimas tecnologías, garantizando un rendimiento óptimo, alta capacidad de respuesta y cumplimiento de los estándares específicos de cada plataforma para una experiencia de usuario atractiva."
+          }
+        
+      }
+    },
+    "hobbies": {
+      "title": "Habilidades Destacadas",
+      "items": {
+        "uiDesign": {
+          "title": "Diseño UI/UX y Prototipos",
+          "description": "Creo diseños intuitivos y visualmente atractivos en Figma, permitiendo a los clientes visualizar el flujo y la estructura de su aplicación antes del desarrollo."
+        },
+        "appDev": {
+          "title": "Desarrollo de Apps Responsivas",
+          "description": "Desarrollo aplicaciones que funcionan sin problemas en todos los dispositivos, garantizando una experiencia de usuario consistente y atractiva tanto en la web como en plataformas móviles."
+        },
+        "backup": {
+          "title": "Backups en la Nube y Seguridad",
+          "description": "Configuro respaldos automáticos en la nube para garantizar que los datos siempre estén seguros, accesibles y almacenados de forma confiable en plataformas como GitHub."
+        }
+      }
+    },
+    "contact": {
+      "title": "¿Puedo ayudarte?",
+      "button": "¡Contáctame!"
+    },
+    "portfolio": {
+  "title1": "Transformando ideas en",
+  "title2": "Experiencias",
+  "title3": "digitales!",
+  "description": "Como un desarrollador full-stack experimentado, ofrezco experiencia en la creación de sitios web y aplicaciones móviles de alta calidad y responsivos que se adaptan a las necesidades únicas de tu negocio. Me especializo en desarrollo web, optimización de sitios para móviles y en ofrecer experiencias sin interrupciones y amigables para el usuario en todos los dispositivos. Ya sea que necesites un sitio web completo, una versión móvil de tu plataforma existente o un sitio totalmente responsivo, tengo las habilidades para dar vida a tu visión. ¡Trabajemos juntos para hacer que tu presencia digital destaque y funcione de manera excepcional!",
+  "h3": "Proyectos Destacados"
+    }
+,
+"about": {
+  "title1": "Hola soy",
+  "title2": "Evans",
+  "title3": ", Desarrollador Full-Stack especializado en aplicaciones resbonsivas web y soluciones mobiles.",
+  "header": "Contáctanos",
+  "description": "Ponte en contacto y cuéntanos cómo podemos ayudarte.",
+  "contactTitle": "Contacto",
+  "contactText": "evansgxz1@gmail.com",
+  "contactLink": "Contactar ventas →",
+  "linkedinTitle": "LinkedIn",
+  "linkedinText": "Puedes ver mi perfil en LinkedIn.",
+  "linkedinLink": "Ir al perfil →",
+  "whyTitle": "Facebook",
+  "whyText": "Mira mi dia a dia en Facebook.",
+  "whyLink": "Ir al perfil →"
+},
+"about-me": {
+  "title": "Desarrollador Full-Stack especializado en aplicaciones resbonsivas web y soluciones mobiles.",
+  "description": "Como desarrollador full-stack experimentado, aporto experiencia en la creación de sitios web y aplicaciones móviles responsivos y de alta calidad que se adaptan a sus necesidades comerciales únicas. Me especializo en desarrollo web, optimización de sitios móviles y en ofrecer experiencias fluidas y fáciles de usar en todos los dispositivos. Ya sea que necesite un sitio web a gran escala, una versión compatible con dispositivos móviles de su plataforma existente o un sitio totalmente responsivo, tengo las habilidades para hacer realidad su visión. ¡Trabajemos juntos para hacer que su presencia digital se destaque y funcione excepcionalmente bien!"
+},
+  "soft": {
+    "title": "Habilidades Blandas",
+    "items": {
+      "uiUx": {
+        "title": "Resolución de problemas",
+        "description": "Soluciones rápidas y eficientes a desafíos complejos."
+      },
+      "frontend": {
+        "title": "Gestión del tiempo",
+        "description": "Entrega de trabajo de calidad dentro de los plazos."
+      },
+      "backend": {
+        "title": "Colaboración en equipo",
+        "description": "Comunicación efectiva con equipos multifuncionales."
+      },
+      "figma": {
+        "title": "Adaptabilidad",
+        "description": "Desempeño en entornos dinámicos y de ritmo acelerado."
+      },
+      "cloud": {
+        "title": "Pensamiento crítico",
+        "description": "Estrategización y priorización de tareas de manera efectiva."
+      },
+      "vmSetup": {
+        "title": "Liderazgo",
+        "description": "Tomando la iniciativa y guiando a desarrolladores junior."
+      },
+      "maintenance": {
+        "title": "Atención a los detalles",
+        "description": "Asegurando un código limpio, mantenible y libre de errores."
+      },
+      "responsive": {
+        "title": "Optimización Web y Móvil Responsiva",
+        "description": "Optimizo aplicaciones para compatibilidad multiplataforma, asegurando una experiencia consistente en escritorios, tabletas y dispositivos móviles. Esto incluye diseño responsivo, estructuras de diseño adaptables y cumplimiento de accesibilidad."
+      },
+      "analytics": {
+        "title": "Análisis e Integración de Feedback de Usuarios",
+        "description": "Puedo integrar herramientas de análisis para monitorear interacciones de usuarios y métricas de rendimiento, permitiendo mejoras basadas en datos. Esta configuración incluye canales de feedback para recopilar ideas directamente de los usuarios."
+      },
+      "database": {
+        "title": "Configuración y Optimización de Bases de Datos",
+        "description": "Manejo la creación, configuración y optimización de bases de datos, asegurando que los datos se almacenen de forma segura y eficiente para datos estructurados (SQL) y no estructurados (NoSQL)."
+      },
+      "pwa": {
+        "title": "Aplicaciones Web Progresivas (PWA)",
+        "description": "Creo aplicaciones web progresivas (PWA) que brindan una experiencia similar a una app nativa en navegadores, con acceso sin conexión, notificaciones push e instalación sin interrupciones, maximizando el alcance en todos los dispositivos."
+      },
+      "nativeApps": {
+        "title": "Aplicaciones Nativas para iOS y Android",
+        "description": "Desarrollo aplicaciones móviles nativas para iOS y Android con las últimas tecnologías, asegurando un rendimiento óptimo, capacidad de respuesta y cumplimiento de estándares específicos de cada plataforma para una experiencia de usuario atractiva."
+      }
+    }
+  }
+
+  }
+  

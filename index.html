@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
+    <!-- PNG Fallbacks for modern devices -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/assets/favicon-512x512.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="assets/favicon-512x512.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="512x512"
+      href="assets/favicon-512x512.png"
+    />
+
+    <!-- Apple Touch Icon (iOS) -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon-512x512.png"
+    />
+
+    <!-- Microsoft Tiles -->
+    <meta name="msapplication-TileImage" content="mstile-144x144.png" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+
+    <!-- Web Manifest (for PWA) -->
+    <link rel="manifest" href="manifest.json" />
+
+    <title>Freelance Evans - Affordable Web & Mobile Developer Solutions</title>
+    <script>
+      // Redirect root path ("/") to "/home"
+      if (window.location.pathname === "/index.html") {
+        window.history.replaceState({}, "", "/home");
+      }
+    </script>
+    <meta
+      name="description"
+      content="Looking for an affordable freelance developer? Evans offers web and mobile development services at cheap prices tailored to your needs."
+    />
+
+    <meta
+      name="keywords"
+      content="freelance apps, full-stack developer, web development, mobile app development, responsive websites"
+    />
+
+    <link rel="canonical" href="https://freelance-evans.pro/" />
+    <link rel="canonical" href="https://freelance-evans.pro/home" />
+    <link rel="canonical" href="https://freelance-evans.pro/about" />
+    <link rel="canonical" href="https://freelance-evans.pro/portafolio" />
+
+    <link rel="stylesheet" href="styles.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "Best Freelance Apps",
+        "url": "https://freelance-evans.pro",
+        "logo": "https://freelance-evans.pro/assets/favicon-512x512.png",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "email": "evansgxz1@gmail.com",
+          "contactType": "Customer Support"
+        },
+        "sameAs": ["https://www.linkedin.com/in/estebanglz"]
+      }
+    </script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header section containing site navigation -->
+    <header>
+      <nav>
+        <div class="logo">
+          <!-- Site logo or title -->
+          <h1 data-translate="header.logo">Full-Stack Freelancer</h1>
+        </div>
+        <ul class="nav">
+          <li>
+            <a
+              data-translate="header.nav.home"
+              href="index.html"
+              class="nav-item primary"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              data-translate="header.nav.portfolio"
+              href="portafolio.html"
+              class="nav-item secondary"
+              >Portafolio</a
+            >
+          </li>
+          <li>
+            <a
+              data-translate="header.nav.about"
+              href="about.html"
+              class="nav-item secondary"
+              >Skills</a
+            >
+          </li>
+          <li>
+            <button
+              id="toggle-lang"
+              data-translate="header.nav.toggleLang"
+              class="lang-toggle"
+            >
+              EN
+            </button>
+          </li>
+        </ul>
+
+        <div class="burger-menu" onclick="toggleMenu()">
+          <!-- Burger icon -->
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main content area -->
+    <main>
+      <!-- Intro Section: Introduction of the developer -->
+      <section class="intro">
+        <div class="container center">
+          <h2>
+            <span data-translate="about.title1">Hello! I am</span>
+            <span data-translate="about.title2" class="highlight">Evans</span>
+            <!-- Highlighted span without translation -->
+            <span data-translate="about.title3"
+              >, Full-Stack Developer Specializing in Responsive Websites and
+              Mobile Solutions</span
+            >
+          </h2>
+        </div>
+      </section>
+
+      <!-- Strengths Section: Highlights the developer's strengths -->
+      <section class="about-me">
+        <div class="left-column">
+          <h3 data-translate="about-me.title">
+            Full-Stack Developer Specializing in Responsive Websites and Mobile
+            Solutions
+          </h3>
+          <p data-translate="about-me.description">
+            As a seasoned full-stack developer, I bring expertise in creating
+            high-quality, responsive websites and mobile applications that cater
+            to your unique business needs. I specialize in web development,
+            mobile site optimization, and delivering seamless, user-friendly
+            experiences across all devices. Whether you need a full-scale
+            website, a mobile-friendly version of your existing platform, or a
+            fully responsive site, I have the skills to bring your vision to
+            life. Let’s work together to make your digital presence stand out
+            and perform exceptionally well!
+          </p>
+        </div>
+        <div class="right-column">
+          <img src="./assets/me/me_sp.png" alt="me" />
+        </div>
+      </section>
+
+      <!-- Hobbies Section: Displays hobbies with images and descriptions -->
+      <section id="contact" class="section">
+        <div class="contact-section">
+          <div class="contact-header">
+            <h1 data-translate="about.header">Contact Us</h1>
+            <p data-translate="about.description">
+              Get in touch and let us know how we can help.
+            </p>
+          </div>
+          <div class="contact-cards">
+            <div class="card">
+              <div class="card-icon icon-contact"></div>
+              <h2 data-translate="about.contactTitle">Contact</h2>
+              <p data-translate="about.contactText">evansgxz1@gmail.com</p>
+              <a
+                data-translate="about.contactLink"
+                href="mailto:evansgxz1@gmail.com"
+                >Contact sales →</a
+              >
+            </div>
+            <div class="card">
+              <div class="card-icon icon-linkedin"></div>
+              <h2 data-translate="about.linkedinTitle">Linkedin</h2>
+              <p data-translate="about.linkedinText">
+                You can see my LinkedIn profile.
+              </p>
+              <a
+                data-translate="about.linkedinLink"
+                href="https://www.linkedin.com/in/estebanglz"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Go to profile →</a
+              >
+            </div>
+            <div class="card">
+              <div class="card-icon icon-newsroom"></div>
+              <h2 data-translate="about.whyTitle">Facebook?</h2>
+              <p data-translate="about.whyText">
+                See news of my day by day on Facebook profile.
+              </p>
+
+              <a
+                data-translate="about.whyLink"
+                href="https://www.facebook.com/evansgxz"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Go to profile →</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section: Provides a way to contact the developer -->
+      <section class="contact">
+        <div class="container">
+          <h2 data-translate="contact.title">¿Puedo ayudarte?</h2>
+          <button id="contact-button" data-translate="contact.button">
+            Contáctame!
+          </button>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

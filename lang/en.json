@@ -1,0 +1,169 @@
+{
+    "header": {
+      "logo": "Full-Stack Freelancer",
+      "nav": {
+        "home": "Home",
+        "portfolio": "Portfolio",
+        "about": "Skills"
+      }
+    },
+    "intro": {
+      "title": "My",
+      "highlight": "Skills",
+      "description": "I am a versatile full-stack developer with expertise in building dynamic, scalable, and user-centric applications. With a strong foundation in frontend technologies like React and React Native and robust backend frameworks such as Ruby on Rails and Node.js, I bridge the gap between design and functionality. My skill set includes proficiency in database management, cloud deployment, and responsive design, allowing me to deliver end-to-end solutions that meet diverse project needs. Beyond technical expertise, my focus on problem-solving, attention to detail, and adaptability ensures the successful execution of every project."
+    },
+    "strengths": {
+      "title": "Technical Skills",
+      "items": {
+        "uiUx": {
+          "title": "Custom UI/UX Design Solutions",
+          "description": "If clients don’t have a clear vision, I can create intuitive, visually appealing UI/UX designs tailored to their needs. I use Figma for prototyping, ensuring designs are user-centered, modern, and aligned with the brand’s identity."
+        },
+        "frontend": {
+          "title": "Frontend Development",
+          "description": "I build responsive and dynamic frontend applications using ReactJS and React Native, optimizing performance across web and mobile platforms. My focus is on seamless user experiences and efficient loading speeds."
+        },
+        "backend": {
+          "title": "Backend Architecture and API Development",
+          "description": "I create secure, scalable backend servers using Ruby on Rails, with robust API designs to power frontend applications. My solutions include user authentication, data management, and third-party integrations."
+        },
+        "figma": {
+          "title": "Figma Design Prototyping",
+          "description": "I develop detailed Figma prototypes, from wireframes to high-fidelity screens, enabling clients to visualize app layouts, workflows, and interactivity before development."
+        },
+        "cloud": {
+          "title": "Cloud-Based Backup and Version Control",
+          "description": "I set up automatic backup folders in GitHub or other cloud services, ensuring that all source code and design assets are securely version-controlled and accessible."
+        },
+        "vmSetup": {
+          "title": "Virtual Machine Setup and Deployment",
+          "description": "I provide virtual machine setup for hosting both frontend and backend components, allowing secure and reliable deployment. I ensure server stability, scaling, and performance."
+        },
+        "maintenance": {
+          "title": "Continuous Maintenance and Optimization",
+          "description": "My services don’t stop at launch—I offer ongoing support for updates, bug fixes, performance optimizations, and security patches to keep the application running smoothly."
+        },
+        "responsive": {
+          "title": "Responsive Web and Mobile Optimization",
+          "description": "I optimize applications for cross-platform compatibility, ensuring a consistent experience on desktops, tablets, and mobile devices. This includes responsive design, adaptable layout structures, and accessibility compliance."
+        },
+        "analytics": {
+          "title": "Analytics and User Feedback Integration",
+          "description": "I can integrate analytics tools to monitor user interactions and performance metrics, allowing for data-driven improvements. This setup includes feedback channels to gather insights directly from users."
+        },
+        "database": {
+          "title": "Database Setup and Optimization",
+          "description": "I handle database creation, setup, and optimization, ensuring data is stored securely and efficiently for both structured (SQL) and unstructured (NoSQL) data types."
+        }, "pwa": {
+          "title": "PWA Web Apps",
+          "description": "I build Progressive Web Apps (PWA) that provide a native app-like experience in web browsers, featuring offline access, push notifications, and seamless installation, maximizing reach across all devices."
+        }, "nativeApps": {
+          "title": "Native Apps for iOS and Android",
+          "description": "I develop native mobile applications for iOS and Android lastes technologies, ensuring optimal performance, responsiveness, and adherence to platform-specific standards for an engaging user experience."
+        }
+      }
+    },
+    "hobbies": {
+      "title": "Featured Skills",
+      "items": {
+        "uiDesign": {
+          "title": "UI/UX Design and Prototyping",
+          "description": "I create intuitive and visually appealing designs in Figma, allowing clients to visualize the flow and structure of their app before development."
+        },
+        "appDev": {
+          "title": "Responsive App Development",
+          "description": "I develop applications that function seamlessly across all devices, ensuring a consistent and engaging user experience on both web and mobile platforms."
+        },
+        "backup": {
+          "title": "Cloud Backups and Security",
+          "description": "I set up automated cloud backups to ensure that data is always secure, accessible, and reliably stored on platforms like GitHub."
+        }
+      }
+    },
+    "contact": {
+      "title": "Can I Help You?",
+      "button": "Contact Me!"
+    },
+    "portfolio": {
+      "title1": "Transforming Ideas into Digital",
+      "title2": "Experiences",
+      "title3": "!",
+      "description": "As a seasoned full-stack developer, I bring expertise in creating high-quality, responsive websites and mobile applications that cater to your unique business needs. I specialize in web development, mobile site optimization, and delivering seamless, user-friendly experiences across all devices. Whether you need a full-scale website, a mobile-friendly version of your existing platform, or a fully responsive site, I have the skills to bring your vision to life. Let’s work together to make your digital presence stand out and perform exceptionally well!",
+      "h3": "Featured Projects"
+    },
+    "about": {
+      "title1": "Hello! I am",
+      "title2": "Evans",
+      "title3": ", Full-Stack Developer Specializing in Responsive Websites and Mobile Solutions",
+      "header": "Contact Us",
+      "description": "Get in touch and let us know how we can help.",
+      "contactTitle": "Contact",
+      "contactText": "evansgxz1@gmail.com",
+      "contactLink": "Contact sales →",
+      "linkedinTitle": "LinkedIn",
+      "linkedinText": "You can see my LinkedIn profile.",
+      "linkedinLink": "Go to profile →",
+      "whyTitle": "Facebook",
+      "whyText": "See news of my day by day on Facebook profile.",
+      "whyLink": "Go to profile →"
+    },
+    "about-me": {
+      "title": "Full-Stack Developer Specializing in Responsive Websites and Mobile Solutions",
+      "description": " As a seasoned full-stack developer, I bring expertise in creating high-quality, responsive websites and mobile applications that cater to your unique business needs. I specialize in web development, mobile site optimization, and delivering seamless, user-friendly experiences across all devices. Whether you need a full-scale website, a mobile-friendly version of your existing platform, or a fully responsive site, I have the skills to bring your vision to life. Let’s work together to make your digital presence stand out and perform exceptionally well!"
+    },
+      "soft": {
+        "title": "Soft Skills",
+        "items": {
+          "uiUx": {
+            "title": "Problem-solving",
+            "description": "Quick and efficient solutions to complex challenges."
+          },
+          "frontend": {
+            "title": "Time management",
+            "description": "Delivering quality work within deadlines."
+          },
+          "backend": {
+            "title": "Team collaboration",
+            "description": "Effective communication with cross-functional teams."
+          },
+          "figma": {
+            "title": "Adaptability",
+            "description": "Thriving in fast-paced, dynamic environments."
+          },
+          "cloud": {
+            "title": "Critical thinking",
+            "description": "Strategizing and prioritizing tasks effectively."
+          },
+          "vmSetup": {
+            "title": "Leadership",
+            "description": "Taking initiative and mentoring junior developers."
+          },
+          "maintenance": {
+            "title": "Attention to detail",
+            "description": "Ensuring clean, maintainable, and error-free code."
+          },
+          "responsive": {
+            "title": "Responsive Web and Mobile Optimization",
+            "description": "I optimize applications for cross-platform compatibility, ensuring a consistent experience on desktops, tablets, and mobile devices. This includes responsive design, adaptable layout structures, and accessibility compliance."
+          },
+          "analytics": {
+            "title": "Analytics and User Feedback Integration",
+            "description": "I can integrate analytics tools to monitor user interactions and performance metrics, allowing for data-driven improvements. This setup includes feedback channels to gather insights directly from users."
+          },
+          "database": {
+            "title": "Database Setup and Optimization",
+            "description": "I handle database creation, setup, and optimization, ensuring data is stored securely and efficiently for both structured (SQL) and unstructured (NoSQL) data types."
+          },
+          "pwa": {
+            "title": "PWA Web Apps",
+            "description": "I build Progressive Web Apps (PWA) that provide a native app-like experience in web browsers, featuring offline access, push notifications, and seamless installation, maximizing reach across all devices."
+          },
+          "nativeApps": {
+            "title": "Native Apps for iOS and Android",
+            "description": "I develop native mobile applications for iOS and Android latest technologies, ensuring optimal performance, responsiveness, and adherence to platform-specific standards for an engaging user experience."
+          }
+        }
+      }
+    
+  }
+  
