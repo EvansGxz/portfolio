@@ -188,13 +188,6 @@ h2 {
 @media (max-width: 768px) {
   .strengths .grid, .soft .grid,
   .hobbies .grid {
-    grid-template-columns: repeat(2, 1fr); /* Switch to 2 columns for tablets */
-  }
-}
-
-@media (max-width: 480px) {
-  .strengths .grid, .sfot .grid,
-  .hobbies .grid {
     grid-template-columns: 1fr; /* Switch to 1 column for mobile */
   }
 }
